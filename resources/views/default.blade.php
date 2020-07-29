@@ -8,13 +8,13 @@
     <title>CSMW</title>
     <meta name="title" content="CSMW - A Website by CosmicWolf">
     <meta name="description" content="This website contains personal projects and information, including links to various social media and games such as Twitter, Discord and osu!. ">
-    <meta property="image" content="{{ url('public/images/okami.jpg') }}">
+    <meta property="image" content="{{ url('images/okami.jpg') }}">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link href="public/css/app.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
 
 </head>
 <body>
