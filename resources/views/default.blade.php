@@ -20,4 +20,7 @@
 <body>
     @yield('content')
 </body>
+<footer>
+    @yield('script')
+</footer>
 </html>

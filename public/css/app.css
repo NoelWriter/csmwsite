@@ -10930,12 +10930,13 @@ a.text-dark:focus {
 
 html,
 body {
-  background-color: #fff;
+  background-color: #131313;
   color: #636b6f;
   font-family: "Roboto", sans-serif;
   font-weight: 200;
   height: 100vh;
   margin: 0;
+  transition: background-color 700ms ease-in;
 }
 
 .full-height {
@@ -10978,5 +10979,15 @@ body {
 
 .m-b-md {
   margin-bottom: 30px;
+}
+
+.page-title {
+  top: 35vh;
+  position: relative;
+}
+
+.page-links {
+  top: 32px;
+  position: relative;
 }
 
