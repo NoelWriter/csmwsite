@@ -18,9 +18,29 @@
 
 </head>
 <body>
-    @yield('content')
+    <div class="position-ref full-height">
+        <div class="flex-center page-links">
+            <div class="content">
+                <div class="navbar links">
+                    <a href="/" class="navbar-brand" href="#" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">狼</a>
+                    <a href="/osu" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="600">osu!</a>
+                    <a href="" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="900">projects</a>
+                    <a href="" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="1200">discord</a>
+                    <a href="" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="1500">twitter</a>
+                </div>
+            </div>
+        </div>
+        @yield('content')
+    </div>
 </body>
 <footer>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
     @yield('script')
 </footer>
 </html>
