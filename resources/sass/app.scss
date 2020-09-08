@@ -6,3 +6,27 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Pages
+@import 'pages/index';
+@import 'pages/osu';
+
+//General
+.navbar-brand {
+    font-size: 30px !important;
+}
+
+.page-links {
+    top: 0px;
+    position: relative;
+}
+
+.links > a {
+    color: $font-color-default;
+    padding: 0px 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
