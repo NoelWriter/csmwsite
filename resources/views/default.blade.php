@@ -33,7 +33,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link href="css/app.css" rel="stylesheet">
+    <link href="{{ mix('app.css') }}" rel="stylesheet">
 
 </head>
 <body>
