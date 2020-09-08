@@ -6,77 +6,44 @@
 
         <!-- Content Row -->
         <div class="row">
-            <div class="col-md-4 mb-5">
-                <div class="card bg-dark h-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Skin</h2>
-                        <p class="card-text">This download containst the .osk file needed to implement the skin into OSU!, just open
-                            the file with the OSU! application and it will implement the skin files automatically.</p>
+            <div class="col-4">
+                <div class="card bg-dark">
+                    <div class="card-header">
+                        Categories
                     </div>
-                    <div class="card-footer">
-                        <a href="files/Cosmic%20Comfort%20V2.8.osk" class="btn btn-primary btn-sm">Download</a>
+                    <div class="card-body">
+                        <div class="list-group list-group-flush" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="tab" href="#list-home" role="tab" aria-controls="list-home" aria-selected="false">Utilities</a>
+                            <a class="list-group-item list-group-item-action active" id="list-profile-list" data-toggle="tab" href="#list-profile" role="tab" aria-controls="list-profile" aria-selected="true">Administration</a>
+                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-messages" role="tab" aria-controls="list-messages" aria-selected="false">Fun</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-settings" role="tab" aria-controls="list-settings" aria-selected="false">Games</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-4 mb-5">
-                <div class="card bg-dark h-100">
+            <div class="col-8">
+                <div class="card bg-dark">
                     <div class="card-body">
-                        <h2 class="card-title">Hawku Driver Settings</h2>
-                        <p class="card-text">Select files, import and select the downloaded file to import my settings to the hawku
-                            driver</p>
-                        <ul>
-                            <li>top: 5500</li>
-                            <li>bottom: 9500</li>
-                            <li>Left: 0</li>
-                            <li>Right: 7000</li>
-                            <li>Forced aspect ratio: on</li>
-                        </ul>
-                    </div>
-                    <div class="card-footer">
-                        <a href="files/osusettings.xml" class="btn btn-primary btn-sm" download>Download</a>
-                        {{--                        <a data-toggle="modal" data-target="#tabletsize" class="btn btn-sm" download>View size</a>--}}
-                    </div>
-                </div>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-4 mb-5">
-                <div class="card bg-dark h-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Other</h2>
-                        <p class="card-text">Discord: CosmicWolf#0001</p>
-                        <p class="card-text">Tablet: Wacom Intuos</p>
-                        <p class="card-text">Keyboard: <a href="https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3332" target="_blank">Varmilo VA87M Panda</a></p>
-                        <p class="card-text">Switch: Cherry MX Silver</p>
-                    </div>
-                </div>
-            </div>
-            <!-- /.col-md-4 -->
-
-
-        </div>
-        <!-- /.row -->
-
-        <!-- Modal -->
-        <div class="modal" id="tabletsize" tabindex="-1" data-backdrop="false" role="dialog" aria-labelledby="tabletsize"
-             aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Tablet size</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="tablet.png" alt="">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                <p>Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor. Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut. Mollit voluptate reprehenderit occaecat nisi ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt incididunt consectetur culpa aliquip eiusmod dolor. Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud do aliquip veniam minim.</p>
+                            </div>
+                            <div class="tab-pane fade active show" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                                <p>Cupidatat quis ad sint excepteur laborum in esse qui. Et excepteur consectetur ex nisi eu do cillum ad laborum. Mollit et eu officia dolore sunt Lorem culpa qui commodo velit ex amet id ex. Officia anim incididunt laboris deserunt anim aute dolor incididunt veniam aute dolore do exercitation. Dolor nisi culpa ex ad irure in elit eu dolore. Ad laboris ipsum reprehenderit irure non commodo enim culpa commodo veniam incididunt veniam ad.</p>
+                            </div>
+                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                                <p>Ut ut do pariatur aliquip aliqua aliquip exercitation do nostrud commodo reprehenderit aute ipsum voluptate. Irure Lorem et laboris nostrud amet cupidatat cupidatat anim do ut velit mollit consequat enim tempor. Consectetur est minim nostrud nostrud consectetur irure labore voluptate irure. Ipsum id Lorem sit sint voluptate est pariatur eu ad cupidatat et deserunt culpa sit eiusmod deserunt. Consectetur et fugiat anim do eiusmod aliquip nulla laborum elit adipisicing pariatur cillum.</p>
+                            </div>
+                            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                                <p>Irure enim occaecat labore sit qui aliquip reprehenderit amet velit. Deserunt ullamco ex elit nostrud ut dolore nisi officia magna sit occaecat laboris sunt dolor. Nisi eu minim cillum occaecat aute est cupidatat aliqua labore aute occaecat ea aliquip sunt amet. Aute mollit dolor ut exercitation irure commodo non amet consectetur quis amet culpa. Quis ullamco nisi amet qui aute irure eu. Magna labore dolor quis ex labore id nostrud deserunt dolor eiusmod eu pariatur culpa mollit in irure.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- /.row -->
+
 
     </div>
     <!-- /.container -->

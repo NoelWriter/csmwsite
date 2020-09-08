@@ -10975,6 +10975,19 @@ body {
   position: relative;
 }
 
+.list-group-item {
+  background-color: transparent;
+  border-top: 1px solid #ddd;
+  border-radius: 0;
+  color: #fff;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom-color: #360989;
+}
+
 .navbar-brand {
   font-size: 30px !important;
 }
