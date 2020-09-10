@@ -55,8 +55,8 @@
                     <a href="/" class="navbar-brand nav-item">狼</a>
                     <a href="/projects" class="nav-item">projects</a>
                     <a href="/commands" class="nav-item">commands</a>
-                    <a href="/osu"      class="nav-item">osu!</a>
-                    <a href=""          class="nav-item">twitter</a>
+                    <a href="/osu" class="nav-item">osu!</a>
+                    <a href="https://github.com/noelwriter/" class="nav-item">github</a>
                 </div>
             </div>
         </div>
