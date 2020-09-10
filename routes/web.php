@@ -26,6 +26,10 @@ Route::get('/osu', function () {
     return view('osu');
 });
 
+Route::get('/projects', function () {
+    return view('projects');
+});
+
 Route::resource('commands', 'CommandController');
 
 Auth::routes(['register' => false]);

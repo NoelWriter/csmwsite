@@ -5,7 +5,22 @@ html, body {
     font-weight: 200;
     height: 100vh;
     margin: 0;
+    overflow-y: initial;
+    z-index: 0;
 
+}
+
+.nav-item {
+    &:hover {
+        .triangle-background-weak {
+            left: -200px;
+        }
+
+        .footer-two {
+            right: -200px;
+        }
+
+    }
 }
 
 .full-height {
@@ -44,6 +59,87 @@ html, body {
 .page-title {
     top: 35vh;
     position: relative;
+}
+
+@mixin triangle( $size, $color ) {
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: $size $size 0 0;
+    border-color: $color transparent transparent transparent;
+    transition: border-width 0.5s;
+}
+
+@mixin triangle-inverse( $size, $color ) {
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 0 $size;
+    border-color: transparent transparent $color transparent;
+    transition: border-width 0.5s;
+}
+
+.triangle-background {
+
+    @include triangle( 700px, #F9F9F9 );
+}
+
+.triangle-background-weak {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    @include triangle( 25vw, #290072);
+}
+
+.triangle-background-strong {
+
+    position: fixed;
+
+    top: 10vw;
+    left: 0;
+
+    @include triangle( 22vw, #2a2a2a);
+}
+
+.wrap {
+    position: relative;
+
+}
+
+.github {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    @include triangle( 100px, #290072 );
+}
+
+
+.footer {
+    position: fixed;
+
+    right: 0;
+    bottom: 10vw;
+
+    @include triangle-inverse( 22vw, #2a2a2a );
+    border-width: 0 0 22vw 22vw;
+}
+
+
+.footer-two {
+    position: fixed;
+
+    right: 0;
+    bottom: 0;
+
+    @include triangle-inverse( 25vw, #290072);
+    border-width: 0 0 25vw 25vw;
 }
 
 
