@@ -25,22 +25,22 @@
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                         <!-- Utilities -->
-                        <div class="card bg-dark">
+                        <div class="card mb-2 bg-dark">
                             <div class="card-header">
                                 botinfo
                             </div>
                             <div class="card-body">
                                 <p>Shows information about the bot</p>
-                                <p>Usage:</p><code>!botinfo</code>
+                                <code>!botinfo</code>
                             </div>
                         </div>
-                        <div class="card bg-dark">
+                        <div class="card mb-2 bg-dark">
                             <div class="card-header">
                                 serverinfo
                             </div>
                             <div class="card-body">
                                 <p>Shows information about the server, you can provide a server ID as long as the bot is available in the specified server</p>
-                                <p>Usage:</p><code>!serverinfo (server ID)</code>
+                                <code>!serverinfo (server ID)</code>
                             </div>
                         </div>
                     </div>
