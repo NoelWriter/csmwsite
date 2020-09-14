@@ -27,7 +27,7 @@
                         <!-- Utilities -->
                         <div class="card mb-2 bg-dark">
                             <div class="card-header">
-                                botinfo
+                                Bot Info
                             </div>
                             <div class="card-body">
                                 <p>Shows information about the bot</p>
@@ -36,7 +36,7 @@
                         </div>
                         <div class="card mb-2 bg-dark">
                             <div class="card-header">
-                                serverinfo
+                                Server Info
                             </div>
                             <div class="card-body">
                                 <p>Shows information about the server, you can provide a server ID as long as the bot is available in the specified server</p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="card mb-2 bg-dark">
                             <div class="card-header">
-                                github
+                                Github
                             </div>
                             <div class="card-body">
                                 <p>shows the github repository for the bot</p>
@@ -60,7 +60,7 @@
                         <!-- Fun -->
                         <div class="card mb-2 bg-dark">
                             <div class="card-header">
-                                woof
+                                Woof
                             </div>
                             <div class="card-body">
                                 <p>Shows a random dog picture</p>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="card mb-2 bg-dark">
                             <div class="card-header">
-                                meow
+                                Meow
                             </div>
                             <div class="card-body">
                                 <p>Shows a random cat picture</p>
@@ -78,16 +78,34 @@
                         </div>
                         <div class="card mb-2 bg-dark">
                             <div class="card-header">
-                                dankmeme
+                                Dank Meme
                             </div>
                             <div class="card-body">
                                 <p>Shows a random dank meme</p>
                                 <code>!dankmeme</code>
                             </div>
                         </div>
+                        <div class="card mb-2 bg-dark">
+                            <div class="card-header">
+                                Cute
+                            </div>
+                            <div class="card-body">
+                                <p>Shows a random cute picture</p>
+                                <code>!cute</code>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
                         <!-- Games -->
+                        <div class="card mb-2 bg-dark">
+                            <div class="card-header">
+                                Rainbow 6 Siege
+                            </div>
+                            <div class="card-body">
+                                <p>Shows stats of specified siege account. Platform options include Uplay, Xbox live and Playstation Network (uplay, xbl, psn).</p>
+                                <code>!r6s [platform] [username]</code>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
