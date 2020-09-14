@@ -30,7 +30,7 @@
                                 Bot Info
                             </div>
                             <div class="card-body">
-                                <p>Shows information about the bot</p>
+                                <p>Shows information about the bot.</p>
                                 <code>!botinfo</code>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                                 Server Info
                             </div>
                             <div class="card-body">
-                                <p>Shows information about the server, you can provide a server ID as long as the bot is available in the specified server</p>
+                                <p>Shows information about the server, you can provide a server ID as long as the bot is available in the specified server.</p>
                                 <code>!serverinfo (server ID)</code>
                             </div>
                         </div>
@@ -48,8 +48,35 @@
                                 Github
                             </div>
                             <div class="card-body">
-                                <p>shows the github repository for the bot</p>
+                                <p>Shows the github repository for the bot.</p>
                                 <code>!github</code>
+                            </div>
+                        </div>
+                        <div class="card mb-2 bg-dark">
+                            <div class="card-header">
+                                Avatar
+                            </div>
+                            <div class="card-body">
+                                <p>Shows the specified user's avatar.</p>
+                                <code>!avatar (user)</code>
+                            </div>
+                        </div>
+                        <div class="card mb-2 bg-dark">
+                            <div class="card-header">
+                                Weather
+                            </div>
+                            <div class="card-body">
+                                <p>Shows the current weather at a specified location.</p>
+                                <code>!weather [location]</code>
+                            </div>
+                        </div>
+                        <div class="card mb-2 bg-dark">
+                            <div class="card-header">
+                                Define
+                            </div>
+                            <div class="card-body">
+                                <p>Shows the definition of a specified word.</p>
+                                <code>!weather [location]</code>
                             </div>
                         </div>
                     </div>
@@ -63,7 +90,7 @@
                                 Woof
                             </div>
                             <div class="card-body">
-                                <p>Shows a random dog picture</p>
+                                <p>Shows a random dog picture.</p>
                                 <code>!woof</code>
                             </div>
                         </div>
@@ -72,7 +99,7 @@
                                 Meow
                             </div>
                             <div class="card-body">
-                                <p>Shows a random cat picture</p>
+                                <p>Shows a random cat picture.</p>
                                 <code>!meow</code>
                             </div>
                         </div>
@@ -81,7 +108,7 @@
                                 Dank Meme
                             </div>
                             <div class="card-body">
-                                <p>Shows a random dank meme</p>
+                                <p>Shows a random dank meme.</p>
                                 <code>!dankmeme</code>
                             </div>
                         </div>
@@ -90,7 +117,7 @@
                                 Cute
                             </div>
                             <div class="card-body">
-                                <p>Shows a random cute picture</p>
+                                <p>Shows a random cute picture.</p>
                                 <code>!cute</code>
                             </div>
                         </div>
