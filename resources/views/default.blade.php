@@ -57,6 +57,11 @@
                     <a href="/commands" class="nav-item">commands</a>
                     <a href="/osu" class="nav-item">osu!</a>
                     <a href="https://github.com/noelwriter/" class="nav-item">github</a>
+                    @guest
+                        <a href="login" class="nav-link">login</a>
+                    @else
+                        <a href="logout" class="nav-link">logout</a>
+                    @endguest
                 </div>
             </div>
         </div>

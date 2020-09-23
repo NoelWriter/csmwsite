@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
@@ -58,12 +59,19 @@ class LoginController extends Controller
             'discord_id' => $user->id
         ], [
             'discord_id' => $user->id,
-            'username' => $user->nickname
+            'username' => $user->nickname,
+            'email' => $user->email,
+            'avatar' => $user->avatar
         ]);
-
 
         Auth::login($user, true);
 
         return redirect($this->redirectTo);
+    }
+
+    public function logout(Request $request)
+    {
+        Auth::logout();
+        return redirect('/');
     }
 }

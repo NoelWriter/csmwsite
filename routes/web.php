@@ -38,6 +38,12 @@ Route::group(['middleware' => 'guest'], function() {
 
 });
 
+Route::group(['middleware' => 'auth'], function() {
+
+    Route::get('/logout', 'LoginController@logout')->name('logout');
+
+});
+
 Route::resource('commands', 'CommandController');
 
 Route::get('/home', 'HomeController@index')->name('home');
