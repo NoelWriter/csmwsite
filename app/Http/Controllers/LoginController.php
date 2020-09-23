@@ -1,10 +1,16 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
+use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Laravel\Socialite\Facades\Socialite;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+
 
 class LoginController extends Controller
 {
@@ -36,5 +42,28 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+    public function discord()
+    {
+        return Socialite::driver('discord')->redirect();
+    }
+
+    public function discordRedirect()
+    {
+        $user = Socialite::driver('discord')->user();
+
+        // if user doesn't exit create new user record else get the model
+        $user = User::firstOrCreate([
+            'discord_id' => $user->id
+        ], [
+            'discord_id' => $user->id,
+            'username' => $user->nickname
+        ]);
+
+
+        Auth::login($user, true);
+
+        return redirect($this->redirectTo);
     }
 }

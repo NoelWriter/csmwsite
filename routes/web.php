@@ -30,8 +30,14 @@ Route::get('/projects', function () {
     return view('projects');
 });
 
-Route::resource('commands', 'CommandController');
+Route::group(['middleware' => 'guest'], function() {
 
-Auth::routes(['register' => false]);
+    Route::get('/login', 'LoginController@discord');
+
+    Route::get('/login/redirect', 'LoginController@discordRedirect');
+
+});
+
+Route::resource('commands', 'CommandController');
 
 Route::get('/home', 'HomeController@index')->name('home');
