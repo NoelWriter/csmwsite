@@ -47,7 +47,9 @@ class LoginController extends Controller
 
     public function discord()
     {
-        return Socialite::driver('discord')->redirect();
+        return Socialite::driver('discord')
+            ->setScopes(['identify'])
+            ->redirect();
     }
 
     public function discordRedirect()
@@ -60,7 +62,6 @@ class LoginController extends Controller
         ], [
             'discord_id' => $user->id,
             'username' => $user->nickname,
-            'email' => $user->email,
             'avatar' => $user->avatar
         ]);
 
