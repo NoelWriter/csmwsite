@@ -49,6 +49,9 @@
                         <p class="card-text">Keyboard: <a href="https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3332" target="_blank">Varmilo VA87M Panda</a></p>
                         <p class="card-text">Switch: Cherry MX Silver</p>
                     </div>
+                    <div class="card-footer">
+                        <a href="https://osu.ppy.sh/users/8352298" target="_blank" class="btn btn-primary btn-sm" download>View my osu! profile</a>
+                    </div>
                 </div>
             </div>
             <!-- /.col-md-4 -->

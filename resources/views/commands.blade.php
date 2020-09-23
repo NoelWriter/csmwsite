@@ -82,6 +82,24 @@
                     </div>
                     <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                         <!-- Administration -->
+                        <div class="card mb-2 bg-dark">
+                            <div class="card-header">
+                                Kick
+                            </div>
+                            <div class="card-body">
+                                <p>Kicks the specified user.</p>
+                                <code>!avatar [user]</code>
+                            </div>
+                        </div>
+                        <div class="card mb-2 bg-dark">
+                            <div class="card-header">
+                                Kick
+                            </div>
+                            <div class="card-body">
+                                <p>Bans the specified user.</p>
+                                <code>!ban [user]</code>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
                         <!-- Fun -->
@@ -131,6 +149,15 @@
                             <div class="card-body">
                                 <p>Shows stats of specified siege account. Platform options include Uplay, Xbox live and Playstation Network (uplay, xbl, psn).</p>
                                 <code>!r6s [platform] [username]</code>
+                            </div>
+                        </div>
+                        <div class="card mb-2 bg-dark">
+                            <div class="card-header">
+                                Osu
+                            </div>
+                            <div class="card-body">
+                                <p>Shows osu stats of specified account.</p>
+                                <code>!osu [username]</code>
                             </div>
                         </div>
                     </div>
