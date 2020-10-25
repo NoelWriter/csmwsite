@@ -22,6 +22,10 @@ Route::get('/test', function () {
     return view('test');
 });
 
+Route::get('/f1', function () {
+    return view('f1');
+});
+
 Route::get('/osu', function () {
     return view('osu');
 });
