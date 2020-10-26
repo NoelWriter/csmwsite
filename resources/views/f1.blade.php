@@ -10,7 +10,7 @@
         </div>
 
         <div class="row align-content-center">
-            <h1 class="">This stream only works in the Firefox browser</h1>
+            <h1 class="text-center">This stream only works in the Firefox browser</h1>
         </div>
 
 
