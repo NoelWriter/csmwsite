@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('discord_id')->unique();
             $table->string('avatar')->nullable();
             $table->integer('tokens');
-            $table->rememberToken();
+            $table->rememberToken()->default(0);
             $table->timestamps();
         });
     }
