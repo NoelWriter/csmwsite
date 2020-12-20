@@ -34,6 +34,10 @@ Route::get('/projects', function () {
     return view('projects');
 });
 
+Route::get('/mapbox', function () {
+    return view('map');
+});
+
 Route::group(['middleware' => 'guest'], function() {
 
     Route::get('/login', 'LoginController@discord');

@@ -42,6 +42,7 @@
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
 
+    @yield('head')
 </head>
 <body class="wrap">
     <div class='triangle-background-weak'   data-aos-anchor-placement="top-bottom" data-aos="fade-down-right"   data-aos-duration="1000"    data-aos-delay="2000"></div>
