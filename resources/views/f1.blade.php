@@ -10,7 +10,7 @@
         </div>
 
         <div class="row">
-            <h3 class="text-center">*This stream only works in the Firefox browser.</h3>
+            <h3 class="text-center">*Stream is not hosted on this website</h3>
         </div>
 
 
