@@ -6,7 +6,7 @@
 
         <!-- Content Row -->
         <div class="row">
-            <iframe marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen" src="https://sportscart.xyz/ch/scplayer-60.php" width="100%" height="580" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe>
+            <iframe src="https://embedstream.me/sky-sports-f1-sky-f1-stream-1" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen" height="680" sandbox="allow-scripts allow-same-origin allow-forms" width="100%" frameborder="0"></iframe>
         </div>
 
         <div class="row">
