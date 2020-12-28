@@ -13,15 +13,15 @@
                     </div>
                     <div class="card-body">
                         <div class="list-group list-group-flush" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="tab" href="#list-12-gauge-shot" role="tab" aria-controls="list-home" aria-selected="false">12 Gauge Shot</a>
-                            <a class="list-group-item list-group-item-action active" id="list-profile-list" data-toggle="tab" href="#list-12-gauge-slugs" role="tab" aria-controls="list-profile" aria-selected="true">12 Gauge Slugs</a>
+                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="tab" href="#list-12-gauge-shot" role="tab" aria-controls="list-home" aria-selected="false">12 Gauge Shot</a>
+                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="tab" href="#list-12-gauge-slugs" role="tab" aria-controls="list-profile" aria-selected="true">12 Gauge Slugs</a>
                             <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-20-gauge" role="tab" aria-controls="list-messages" aria-selected="false">20 Gauge</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-23x75-mm" role="tab" aria-controls="list-settings" aria-selected="false">23x75 mm</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-9">
+            <div class="col-10">
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade active show" id="list-12-gauge-shot" role="tabpanel" aria-labelledby="list-home-list">
                         <div class="card mb-2 bg-dark">
