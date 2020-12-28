@@ -48,24 +48,64 @@
                                     <td>1</td>
                                     <td>15</td>
                                     <td>0%</td>
-                                    <td class="table-warning"></td>
-                                    <td class="table-warning"></td>
-                                    <td class="table-warning"></td>
-                                    <td class="table-warning"></td>
-                                    <td class="table-warning"></td>
-                                    <td class="table-warning"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
+                                    <th scope="row">8.5mm Buckshot "Magnum"</th>
+                                    <td>50</td>
+                                    <td>2</td>
+                                    <td>26</td>
+                                    <td>0%</td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
+                                    <th scope="row">6.5mm Buckshot "Express"</th>
+                                    <td>35</td>
+                                    <td>3</td>
+                                    <td>26</td>
+                                    <td>0%</td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7mm Buckshot</th>
+                                    <td>39</td>
+                                    <td>3</td>
+                                    <td>26</td>
+                                    <td>0%</td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Flechette</th>
+                                    <td>25</td>
+                                    <td>31</td>
+                                    <td>26</td>
+                                    <td>0%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-5"></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -88,4 +128,27 @@
 @endsection
 
 @section('script')
+    <style>
+        .cell-color-6 {
+            background-color: limegreen;
+        }
+        .cell-color-5 {
+            background-color: green;
+        }
+        .cell-color-4 {
+            background-color: olive;
+        }
+        .cell-color-3 {
+            background-color: orange;
+        }
+        .cell-color-2 {
+            background-color: chocolate;
+        }
+        .cell-color-1 {
+            background-color: orangered;
+        }
+        .cell-color-0 {
+            background-color: red;
+        }
+    </style>
 @endsection
