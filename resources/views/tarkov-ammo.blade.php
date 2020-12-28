@@ -6,7 +6,7 @@
 
         <!-- Content Row -->
         <div class="row">
-            <div class="col-4">
+            <div class="col-3">
                 <div class="card bg-dark">
                     <div class="card-header">
                         Categories
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-9">
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade active show" id="list-12-gauge-shot" role="tabpanel" aria-labelledby="list-home-list">
                         <div class="card mb-2 bg-dark">
