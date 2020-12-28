@@ -25,7 +25,7 @@
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade active show" id="list-12-gauge-shot" role="tabpanel" aria-labelledby="list-home-list">
                         <div class="card mb-2 bg-dark">
-                            <table class="table table-dark my-1">
+                            <table class="table table-dark mx-1">
                                 <thead>
                                 <tr>
                                     <th scope="col">Ammo Type</th>
