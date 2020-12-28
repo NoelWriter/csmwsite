@@ -9,7 +9,7 @@
             <div class="col-3">
                 <div class="card bg-dark">
                     <div class="card-header">
-                        Categories
+                        Ammo Type
                     </div>
                     <div class="card-body">
                         <div class="list-group list-group-flush" id="list-tab" role="tablist">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-10">
+            <div class="col-9">
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade active show" id="list-12-gauge-shot" role="tabpanel" aria-labelledby="list-home-list">
                         <div class="card mb-2 bg-dark">
@@ -112,6 +112,66 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="list-12-gauge-slugs" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="card mb-2 bg-dark">
+                            <table class="table table-dark">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Ammo Type</th>
+                                    <th scope="col">Damage</th>
+                                    <th scope="col">Pen Value</th>
+                                    <th scope="col">Armor Damage %</th>
+                                    <th scope="col">Frag. Chance*</th>
+                                    <th scope="col">Class 1</th>
+                                    <th scope="col">Class 2</th>
+                                    <th scope="col">Class 3</th>
+                                    <th scope="col">Class 4</th>
+                                    <th scope="col">Class 5</th>
+                                    <th scope="col">Class 6</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">RIP Slug</th>
+                                    <td>265</td>
+                                    <td>0</td>
+                                    <td>11</td>
+                                    <td>100%</td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Superformance HP Slug</th>
+                                    <td>265</td>
+                                    <td>0</td>
+                                    <td>11</td>
+                                    <td>100%</td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">RIP Slug</th>
+                                    <td>265</td>
+                                    <td>0</td>
+                                    <td>11</td>
+                                    <td>100%</td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="list-20-gauge" role="tabpanel" aria-labelledby="list-home-list">
                     </div>
