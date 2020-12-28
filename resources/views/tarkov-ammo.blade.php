@@ -33,12 +33,12 @@
                                     <th scope="col">Pen Value</th>
                                     <th scope="col">Armor Damage %</th>
                                     <th scope="col">Frag. Chance*</th>
-                                    <th scope="col">Class 1</th>
-                                    <th scope="col">Class 2</th>
-                                    <th scope="col">Class 3</th>
-                                    <th scope="col">Class 4</th>
-                                    <th scope="col">Class 5</th>
-                                    <th scope="col">Class 6</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -121,12 +121,12 @@
                                     <th scope="col">Pen Value</th>
                                     <th scope="col">Armor Damage %</th>
                                     <th scope="col">Frag. Chance*</th>
-                                    <th scope="col">Class 1</th>
-                                    <th scope="col">Class 2</th>
-                                    <th scope="col">Class 3</th>
-                                    <th scope="col">Class 4</th>
-                                    <th scope="col">Class 5</th>
-                                    <th scope="col">Class 6</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
                                 </tr>
                                 </thead>
                                 <tbody>
