@@ -38,6 +38,11 @@ Route::get('/mapbox', function () {
     return view('map');
 });
 
+Route::get('/tarkov-ammo', function () {
+    return view('tarkov-ammo');
+});
+
+
 Route::group(['middleware' => 'guest'], function() {
 
     Route::get('/login', 'LoginController@discord');
