@@ -13,7 +13,7 @@
                     </div>
                     <div class="card-body">
                         <div class="list-group list-group-flush" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="tab" href="#list-12-gauge-shot" role="tab" aria-controls="list-home" aria-selected="false">12 Gauge Shot</a>
+                            <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="tab" href="#list-12-gauge-shot" role="tab" aria-controls="list-home" aria-selected="false">12 Gauge Shot</a>
                             <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="tab" href="#list-12-gauge-slugs" role="tab" aria-controls="list-profile" aria-selected="true">12 Gauge Slugs</a>
                             <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-20-gauge" role="tab" aria-controls="list-messages" aria-selected="false">20 Gauge</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-23x75-mm" role="tab" aria-controls="list-settings" aria-selected="false">23x75mm</a>
@@ -26,7 +26,7 @@
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-46x30mm" role="tab" aria-controls="list-settings" aria-selected="false">4.6x30mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-9x39mm" role="tab" aria-controls="list-settings" aria-selected="false">9x39mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-366" role="tab" aria-controls="list-settings" aria-selected="false">.366</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-545x39mm" role="tab" aria-controls="list-settings" aria-selected="false">5.45x39mm</a>
+                            <a class="list-group-item list-group-item-action active" id="list-settings-list" data-toggle="tab" href="#list-545x39mm" role="tab" aria-controls="list-settings" aria-selected="false">5.45x39mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-556x45mm" role="tab" aria-controls="list-settings" aria-selected="false">5.56x45mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-762x39mm" role="tab" aria-controls="list-settings" aria-selected="false">7.62x39mm</a>
 
@@ -36,7 +36,7 @@
             </div>
             <div class="col-9">
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade active show" id="list-12-gauge-shot" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="tab-pane fade" id="list-12-gauge-shot" role="tabpanel" aria-labelledby="list-home-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark mx-1" style="width: 99%">
                                 <thead>
@@ -1536,7 +1536,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-545x39mm" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade active show" id="list-545x39mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
