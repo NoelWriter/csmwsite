@@ -492,25 +492,25 @@
 @section('script')
     <style>
         .cell-color-6 {
-            background-color: limegreen;
+            background-color: #00FF00;
         }
         .cell-color-5 {
-            background-color: green;
+            background-color: #58FF00;
         }
         .cell-color-4 {
-            background-color: olive;
+            background-color: #9FFF00;
         }
         .cell-color-3 {
-            background-color: orange;
+            background-color: #F7FF00;
         }
         .cell-color-2 {
-            background-color: chocolate;
+            background-color: #FFAF00;
         }
         .cell-color-1 {
-            background-color: orangered;
+            background-color: #FF5700;
         }
         .cell-color-0 {
-            background-color: red;
+            background-color: #FF0000;
         }
     </style>
 @endsection
