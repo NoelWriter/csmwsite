@@ -18,17 +18,17 @@
                             <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-20-gauge" role="tab" aria-controls="list-messages" aria-selected="false">20 Gauge</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-23x75-mm" role="tab" aria-controls="list-settings" aria-selected="false">23x75mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-9x18mm" role="tab" aria-controls="list-settings" aria-selected="false">9x18mm</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-7.62x25mm" role="tab" aria-controls="list-settings" aria-selected="false">7.62x25mm</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-762x25mm" role="tab" aria-controls="list-settings" aria-selected="false">7.62x25mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-9x19mm" role="tab" aria-controls="list-settings" aria-selected="false">9x19mm</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-.45" role="tab" aria-controls="list-settings" aria-selected="false">.45</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-45" role="tab" aria-controls="list-settings" aria-selected="false">.45</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-9x21mm" role="tab" aria-controls="list-settings" aria-selected="false">9x21mm</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-5.7x28mm" role="tab" aria-controls="list-settings" aria-selected="false">5.7x28mm</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-4.6x30mm" role="tab" aria-controls="list-settings" aria-selected="false">4.6x30mm</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-57x28mm" role="tab" aria-controls="list-settings" aria-selected="false">5.7x28mm</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-46x30mm" role="tab" aria-controls="list-settings" aria-selected="false">4.6x30mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-9x39mm" role="tab" aria-controls="list-settings" aria-selected="false">9x39mm</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-.366" role="tab" aria-controls="list-settings" aria-selected="false">.366</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-5.45x39mm" role="tab" aria-controls="list-settings" aria-selected="false">5.45x39mm</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-5.56x45mm" role="tab" aria-controls="list-settings" aria-selected="false">5.56x45mm</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-7.62x39mm" role="tab" aria-controls="list-settings" aria-selected="false">7.62x39mm</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-366" role="tab" aria-controls="list-settings" aria-selected="false">.366</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-545x39mm" role="tab" aria-controls="list-settings" aria-selected="false">5.45x39mm</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-556x45mm" role="tab" aria-controls="list-settings" aria-selected="false">5.56x45mm</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-762x39mm" role="tab" aria-controls="list-settings" aria-selected="false">7.62x39mm</a>
 
                         </div>
                     </div>
@@ -723,7 +723,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-7.62x25mm" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-762x25mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -990,7 +990,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-.45" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-45" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -1167,7 +1167,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-5.7x28mm" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-57x28mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -1293,7 +1293,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-4.6x30mm" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-46x30mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -1455,7 +1455,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-.366" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-366" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -1536,7 +1536,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-5.45x39mm" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-545x39mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -1559,7 +1559,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-5.56x45mm" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-556x45mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -1582,7 +1582,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-7.62x39mm" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-762x39mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
