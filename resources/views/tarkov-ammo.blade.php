@@ -1555,6 +1555,184 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <tr>
+                                    <th scope="row">SP</th>
+                                    <td>68</td>
+                                    <td>11</td>
+                                    <td>34</td>
+                                    <td>45%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">HP</th>
+                                    <td>74</td>
+                                    <td>11</td>
+                                    <td>20</td>
+                                    <td>35%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">PRS</th>
+                                    <td>60</td>
+                                    <td>14</td>
+                                    <td>28</td>
+                                    <td>30%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-2"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">US</th>
+                                    <td>65</td>
+                                    <td>15</td>
+                                    <td>34</td>
+                                    <td>10%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">FMJ</th>
+                                    <td>54</td>
+                                    <td>20</td>
+                                    <td>30</td>
+                                    <td>25%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">T (Tracer)</th>
+                                    <td>57</td>
+                                    <td>20</td>
+                                    <td>38</td>
+                                    <td>16%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">PS</th>
+                                    <td>50</td>
+                                    <td>25</td>
+                                    <td>35</td>
+                                    <td>40%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">PP</th>
+                                    <td>46</td>
+                                    <td>30</td>
+                                    <td>32</td>
+                                    <td>17%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-2"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">BP</th>
+                                    <td>48</td>
+                                    <td>32</td>
+                                    <td>41</td>
+                                    <td>16%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-1"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">BT (Tracer)</th>
+                                    <td>44</td>
+                                    <td>37</td>
+                                    <td>49</td>
+                                    <td>16%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-3"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">BS</th>
+                                    <td>40</td>
+                                    <td>51</td>
+                                    <td>57</td>
+                                    <td>17%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">7n39</th>
+                                    <td>37</td>
+                                    <td>62</td>
+                                    <td>60</td>
+                                    <td>2%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -1578,11 +1756,309 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <tr>
+                                    <th scope="row">Warmage</th>
+                                    <td>85</td>
+                                    <td>3</td>
+                                    <td>14</td>
+                                    <td>90%</td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">55_HP</th>
+                                    <td>75</td>
+                                    <td>9</td>
+                                    <td>22</td>
+                                    <td>70%</td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">MK_255_Mod_0</th>
+                                    <td>60</td>
+                                    <td>17</td>
+                                    <td>32</td>
+                                    <td>3%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M856 (Tracer)</th>
+                                    <td>55</td>
+                                    <td>23</td>
+                                    <td>34</td>
+                                    <td>33%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">FMJ</th>
+                                    <td>52</td>
+                                    <td>24</td>
+                                    <td>33</td>
+                                    <td>50%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M855</th>
+                                    <td>50</td>
+                                    <td>30</td>
+                                    <td>37</td>
+                                    <td>40%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-2"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M856A1 (Tracer)</th>
+                                    <td>51</td>
+                                    <td>37</td>
+                                    <td>52</td>
+                                    <td>33%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-3"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M855A1</th>
+                                    <td>45</td>
+                                    <td>43</td>
+                                    <td>52</td>
+                                    <td>34%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-4"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M995</th>
+                                    <td>40</td>
+                                    <td>53</td>
+                                    <td>58</td>
+                                    <td>32%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="list-762x39mm" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="card mb-2 bg-dark">
+                            <table class="table table-dark" style="width: 99%">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Ammo Type</th>
+                                    <th scope="col">Damage</th>
+                                    <th scope="col">Pen Value</th>
+                                    <th scope="col">Armor Damage %</th>
+                                    <th scope="col">Frag. Chance*</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">HP</th>
+                                    <td>87</td>
+                                    <td>15</td>
+                                    <td>35</td>
+                                    <td>26%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">US</th>
+                                    <td>56</td>
+                                    <td>29</td>
+                                    <td>42</td>
+                                    <td>8%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">T45M</th>
+                                    <td>62</td>
+                                    <td>30</td>
+                                    <td>46</td>
+                                    <td>12%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">PS</th>
+                                    <td>57</td>
+                                    <td>32</td>
+                                    <td>52</td>
+                                    <td>25%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-2"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">BP</th>
+                                    <td>58</td>
+                                    <td>47</td>
+                                    <td>63</td>
+                                    <td>12%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-4"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="card mb-2 bg-dark">
+                            <table class="table table-dark" style="width: 99%">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Ammo Type</th>
+                                    <th scope="col">Damage</th>
+                                    <th scope="col">Pen Value</th>
+                                    <th scope="col">Armor Damage %</th>
+                                    <th scope="col">Frag. Chance*</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="card mb-2 bg-dark">
+                            <table class="table table-dark" style="width: 99%">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Ammo Type</th>
+                                    <th scope="col">Damage</th>
+                                    <th scope="col">Pen Value</th>
+                                    <th scope="col">Armor Damage %</th>
+                                    <th scope="col">Frag. Chance*</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="card mb-2 bg-dark">
+                            <table class="table table-dark" style="width: 99%">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Ammo Type</th>
+                                    <th scope="col">Damage</th>
+                                    <th scope="col">Pen Value</th>
+                                    <th scope="col">Armor Damage %</th>
+                                    <th scope="col">Frag. Chance*</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
