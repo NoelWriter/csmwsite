@@ -15,6 +15,7 @@
                             <li class="list-group-item">- Don't kill on sight when not in KOS zone</li>
                             <li class="list-group-item">- Don't offline raid</li>
                             <li class="list-group-item">- Be decent</li>
+                            <li class="list-group-item">- Limit of 2 persons per team (for now)</li>
                         </ul>
                     </div>
                     <div class="col-6">
