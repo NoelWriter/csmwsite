@@ -26,6 +26,10 @@ Route::get('/f1', function () {
     return view('f1');
 });
 
+Route::get('/rust', function () {
+    return view('rust');
+});
+
 Route::get('/osu', function () {
     return view('osu');
 });
