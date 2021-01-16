@@ -3,12 +3,7 @@
 @section('content')
     <!-- Page Content -->
     <div class="container">
-
         <!-- Content Row -->
-        <div class="row">
-            <img src="https://i.csmw.io/eckqZ8.jpg" width="100%"></img>
-        </div>
-
         <div class="row my-5">
             <div class="col-6">
                 <a href="steam://connect/rust.csmw.io:28015"><div class="btn-primary btn">Join server</div></a>
@@ -21,8 +16,9 @@
                 </ul>
             </div>
         </div>
-
-
+        <div class="row">
+            <img src="https://i.csmw.io/eckqZ8.jpg" width="100%"></img>
+        </div>
     </div>
     <!-- /.container -->
 @endsection
