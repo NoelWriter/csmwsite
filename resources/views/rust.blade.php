@@ -18,10 +18,10 @@
                         </ul>
                     </div>
                     <div class="col-6">
-                        <a href="http://playrust.io/map/?Procedural%20Map_3500_17702" target="_blank"><div class="btn-primary btn">Interactive map</div></a>
                         <div class="row"><h2>How to join the server?</h2></div>
                         <div class="row">- open the console by pressing F1</div>
                         <div class="row">- enter the following command : client.connect rust.csmw.io:28015</div>
+                        <a class="mt-1" href="http://playrust.io/map/?Procedural%20Map_3500_17702" target="_blank"><div class="btn-primary btn">Interactive map</div></a>
                     </div>
                 </div>
             </div>
