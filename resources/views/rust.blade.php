@@ -6,7 +6,7 @@
 
         <!-- Content Row -->
         <div class="row">
-            <iframe src="www.playrust.io/map/?Procedural Map_3500_17702" scrolling="no" allowfullscreen="allowfullscreen" height="680",width="100%"></iframe>
+            <iframe src="www.playrust.io/map/?Procedural Map_3500_17702" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen" height="680" width="100%"></iframe>
         </div>
 
         <div class="row">
