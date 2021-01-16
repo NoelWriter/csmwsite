@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Page Content -->
-    <div class="container card">
+    <div class="container card bg-dark">
         <div class="card-body">
             <!-- Content Row -->
             <div class="row my-5">
