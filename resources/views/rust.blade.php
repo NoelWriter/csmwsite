@@ -6,11 +6,20 @@
 
         <!-- Content Row -->
         <div class="row">
-            <img src="https://i.csmw.io/eckqZ8.jpg" height="60vh" width="100%"></img>
+            <img src="https://i.csmw.io/eckqZ8.jpg" width="100%"></img>
         </div>
 
-        <div class="row">
-
+        <div class="row my-5">
+            <div class="flex-row">
+                <div class="btn-primary btn"><a href="steam://connect/rust.csmw.io:28015">Join server</a></div>
+                <div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">- Don't kill on sight when not in KOS zone</li>
+                        <li class="list-group-item">- Don't offline raid</li>
+                        <li class="list-group-item">- Be decent</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
 
