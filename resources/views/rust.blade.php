@@ -6,7 +6,7 @@
 
         <!-- Content Row -->
         <div class="row">
-            <img src="RustmapJPG.jpg" height="60vh" width="100%"></img>
+            <img src="https://i.csmw.io/eckqZ8.jpg" height="60vh" width="100%"></img>
         </div>
 
         <div class="row">
