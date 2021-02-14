@@ -29,7 +29,13 @@
                             <a class="list-group-item list-group-item-action active" id="list-settings-list" data-toggle="tab" href="#list-545x39mm" role="tab" aria-controls="list-settings" aria-selected="false">5.45x39mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-556x45mm" role="tab" aria-controls="list-settings" aria-selected="false">5.56x45mm</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-762x39mm" role="tab" aria-controls="list-settings" aria-selected="false">7.62x39mm</a>
-
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-300blk" role="tab" aria-controls="list-settings" aria-selected="false">.300 blk</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-762x51mm" role="tab" aria-controls="list-settings" aria-selected="false">7.62x51mm</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-762x54R" role="tab" aria-controls="list-settings" aria-selected="false">7.62x54R</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-127x55mm" role="tab" aria-controls="list-settings" aria-selected="false">12.7x55mm</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-338LapuaMagnum" role="tab" aria-controls="list-settings" aria-selected="false">.338 Lapua Magnum</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-MountedWeapons" role="tab" aria-controls="list-settings" aria-selected="false">Mounted Weapons</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-Other" role="tab" aria-controls="list-settings" aria-selected="false">Other</a>
                         </div>
                     </div>
                 </div>
@@ -1989,7 +1995,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-300blk" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -2008,11 +2014,40 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <tr>
+                                    <th scope="row">BPZ</th>
+                                    <td>60</td>
+                                    <td>28</td>
+                                    <td>36</td>
+                                    <td>30%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-2"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">AP</th>
+                                    <td>55</td>
+                                    <td>44</td>
+                                    <td>60</td>
+                                    <td>30%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-4"></td>
+                                </tr>
+
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-762x51mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -2031,11 +2066,114 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <tr>
+                                    <th scope="row">Ultra Nosler</th>
+                                    <td>107</td>
+                                    <td>15</td>
+                                    <td>20</td>
+                                    <td>70%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">BPZ FMJ</th>
+                                    <td>88</td>
+                                    <td>31</td>
+                                    <td>33</td>
+                                    <td>25%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-2"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">TPZ SP</th>
+                                    <td>60</td>
+                                    <td>36</td>
+                                    <td>40</td>
+                                    <td>20%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-2"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M80</th>
+                                    <td>80</td>
+                                    <td>41</td>
+                                    <td>66</td>
+                                    <td>17%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-4"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M62 (Tracer)</th>
+                                    <td>79</td>
+                                    <td>44</td>
+                                    <td>75</td>
+                                    <td>14%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-5"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M61</th>
+                                    <td>70</td>
+                                    <td>64</td>
+                                    <td>83</td>
+                                    <td>13%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">M993</th>
+                                    <td>67</td>
+                                    <td>70</td>
+                                    <td>85</td>
+                                    <td>13%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-762x54R" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -2054,11 +2192,99 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <tr>
+                                    <th scope="row">T-46M (Tracer)</th>
+                                    <td>82</td>
+                                    <td>41</td>
+                                    <td>83</td>
+                                    <td>18%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-3"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">LPS_Gzh</th>
+                                    <td>81</td>
+                                    <td>42</td>
+                                    <td>78</td>
+                                    <td>18%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-3"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">7N1</th>
+                                    <td>86</td>
+                                    <td>45</td>
+                                    <td>84</td>
+                                    <td>8%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-5"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">7BT1 (Tracer)</th>
+                                    <td>78</td>
+                                    <td>59</td>
+                                    <td>87</td>
+                                    <td>8%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">SNB</th>
+                                    <td>75</td>
+                                    <td>62</td>
+                                    <td>87</td>
+                                    <td>8%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">7n37</th>
+                                    <td>72</td>
+                                    <td>70</td>
+                                    <td>88</td>
+                                    <td>8%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="list-" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="tab-pane fade" id="list-127x55mm" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="card mb-2 bg-dark">
                             <table class="table table-dark" style="width: 99%">
                                 <thead>
@@ -2077,6 +2303,233 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <tr>
+                                    <th scope="row">ps12a</th>
+                                    <td>165</td>
+                                    <td>10</td>
+                                    <td>22</td>
+                                    <td>70%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">ps12</th>
+                                    <td>115</td>
+                                    <td>28</td>
+                                    <td>60</td>
+                                    <td>30%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-2"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">ps12b</th>
+                                    <td>102</td>
+                                    <td>46</td>
+                                    <td>57</td>
+                                    <td>30%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-4"></td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-338LapuaMagnum" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="card mb-2 bg-dark">
+                            <table class="table table-dark" style="width: 99%">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Ammo Type</th>
+                                    <th scope="col">Damage</th>
+                                    <th scope="col">Pen Value</th>
+                                    <th scope="col">Armor Damage %</th>
+                                    <th scope="col">Frag. Chance*</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">Tac-X</th>
+                                    <td>196</td>
+                                    <td>18</td>
+                                    <td>55</td>
+                                    <td>50%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-1"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">UPZ</th>
+                                    <td>142</td>
+                                    <td>32</td>
+                                    <td>70</td>
+                                    <td>60%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-4"></td>
+                                    <td class="cell-color-2"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">FMJ</th>
+                                    <td>122</td>
+                                    <td>47</td>
+                                    <td>83</td>
+                                    <td>20%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-5"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">AP</th>
+                                    <td>115</td>
+                                    <td>79</td>
+                                    <td>89</td>
+                                    <td>13%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-MountedWeapons" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="card mb-2 bg-dark">
+                            <table class="table table-dark" style="width: 99%">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Ammo Type</th>
+                                    <th scope="col">Damage</th>
+                                    <th scope="col">Pen Value</th>
+                                    <th scope="col">Armor Damage %</th>
+                                    <th scope="col">Frag. Chance*</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">30mm Grenade</th>
+                                    <td>199</td>
+                                    <td>1</td>
+                                    <td>95</td>
+                                    <td>0%</td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                    <td class="cell-color-0"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">12.7x108mm</th>
+                                    <td>182</td>
+                                    <td>88</td>
+                                    <td>88</td>
+                                    <td>17%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
+
+
+                                <tr>
+                                    <th scope="row">12.7x108mm Tracer</th>
+                                    <td>199</td>
+                                    <td>80</td>
+                                    <td>95</td>
+                                    <td>17%</td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                    <td class="cell-color-6"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-Other" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="card mb-2 bg-dark">
+                            <table class="table table-dark" style="width: 99%">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Ammo Type</th>
+                                    <th scope="col">Damage</th>
+                                    <th scope="col">Pen Value</th>
+                                    <th scope="col">Armor Damage %</th>
+                                    <th scope="col">Frag. Chance*</th>
+                                    <th scope="col">1</th>
+                                    <th scope="col">2</th>
+                                    <th scope="col">3</th>
+                                    <th scope="col">4</th>
+                                    <th scope="col">5</th>
+                                    <th scope="col">6</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">40mm Buckshot Grenade</th>
+                                    <td>160</td>
+                                    <td>5</td>
+                                    <td>95</td>
+                                    <td>0%</td>
+                                    <td class="cell-color-5"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                    <td class="cell-color-3"></td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
