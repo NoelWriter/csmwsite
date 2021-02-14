@@ -2569,7 +2569,7 @@
         }
         .scrollable-sidebar {
             overflow-y: scroll;
-            max-height: 90vh;
+            max-height: 80vh;
         }
     </style>
 @endsection
