@@ -11,7 +11,7 @@
                     <div class="card-header">
                         Ammo Type
                     </div>
-                    <div class="card-body">
+                    <div class="card-body modal-dialog-scrollable">
                         <div class="list-group list-group-flush" id="list-tab" role="tablist">
                             <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="tab" href="#list-12-gauge-shot" role="tab" aria-controls="list-home" aria-selected="false">12 Gauge Shot</a>
                             <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="tab" href="#list-12-gauge-slugs" role="tab" aria-controls="list-profile" aria-selected="true">12 Gauge Slugs</a>
