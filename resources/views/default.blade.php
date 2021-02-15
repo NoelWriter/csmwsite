@@ -3,16 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    @section('Default Meta')
+
+    @hasSection('Meta')
+        @yield('Meta')
+    @else
     <!-- Primary Meta Tags -->
     <title>CSMW</title>
     <meta name="title" content="CSMW - A Website by CosmicWolf">
     <meta name="description"
           content="This website contains personal projects and information, including links to various social media and games such as Twitter, Discord and osu!. ">
     <meta property="image" content="{{ url('images/okami.jpg') }}">
-    @endsection
-
-    @yield('Meta', 'Default Meta')
+    @endif
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="{{ url('favicon/apple-icon-57x57.png') }}">
