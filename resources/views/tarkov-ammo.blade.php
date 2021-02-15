@@ -1,5 +1,13 @@
 @extends('default')
 
+@section('Meta')
+    <title>CSMW - Tarkov Ammo Sheet</title>
+    <meta name="title" content="CSMW - Tarkov Ammo Sheet">
+    <meta name="description"
+          content="A sheet containing all ammo and ammo values related to the game Escape from Tarkov.">
+    <meta property="image" content="{{ url('images/okami.jpg') }}">
+@endsection
+
 @section('content')
     <!-- Page Content -->
     <div class="container">
